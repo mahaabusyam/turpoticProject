@@ -1586,7 +1586,8 @@ animation: fadeUp 2s ease;
 /*contact page*/
 
 .checkout-section {
-    width: 50%;
+    width: 90%;
+    margin: 20px auto;
     padding: 60px 20px;
     display: flex;
     justify-content: center;
@@ -1595,7 +1596,7 @@ animation: fadeUp 2s ease;
 
 .container-cont {
     margin: 20px auto;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     gap: 50px;
