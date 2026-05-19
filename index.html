@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title> TURPOTIC</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+    <div class="nav-container">
+        <a href="#" class="logo">TURPO<span>TIC</span></a>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="car.html">Car</a></li>
+            <li><a href="rent.html">Rent</a></li>
+            <li><a href="motorcycles.html">Motorcycles</a></li>
+        </ul>
+<div class="menu-toggle" id="menuToggle">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+       <div class="nav-icons">
+ <div class="search-wrapper">
+     <a href="#" class="icon-btn" id="search-trigger">
+         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35m0 0 A7.5 7.5 0 1 0 5.5 5.5 a7.5 7.5 0 0 0 11.15 11.15Z" />
+         </svg>
+     </a>
+     
+     <div class="search-dropdown" id="search-dropdown">
+         <input type="text" placeholder="Search for cars, brands..." class="search-input">
+         <button class="search-submit-btn">
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="18" height="18">
+                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+             </svg>
+         </button>
+     </div>
+ </div>
+    
+    <a href="#" id="cartTrigger"  class="icon-btn">
+        <svg xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor">
+
+            <path stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M2.25 3h1.386
+            c.51 0 .955.343 1.087.836
+            l.383 1.437M7.5 14.25
+            a3 3 0 0 0 3 3h6.75
+            a3 3 0 0 0 3-3V6.75
+            H5.106"/>
+        </svg>
+    </a>
+    
+    <div class="profile-wrapper">
+        <a href="#" class="icon-btn" id="profileTrigger">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.5 20.118a7.5 7.5 0 0 1 15 0" />
+            </svg>
+        </a>
+        
+        <div class="profile-dropdown" id="profileDropdown">
+            <div class="dropdown-user-info">
+                <p class="user-name">Maha Abu Syam</p>
+                <p class="user-role">Premium Member</p>
+            </div>
+            
+            <hr class="dropdown-divider">
+            
+            <ul class="dropdown-menu-list">
+                
+                <li>
+                    <a href="#">
+                        <span class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6.75a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.5 20.118a7.5 7.5 0 0 1 15 0" />
+                            </svg>
+                        </span>
+                        My Profile
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        <span class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.75 17 3 20.25l1.8-5.4L1.5 10.5l5.55-.15L9.75 5l2.7 5.35 5.55.15-3.3 4.35 1.8 5.4L9.75 17Z" />
+                            </svg>
+                        </span>
+                        My Garage
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="#">
+                        <span class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h3m-7.364 1.636 2.121-2.122a2 2 0 0 1 2.828 0l.708.708a2 2 0 0 0 2.828 0l.708-.708a2 2 0 0 1 2.828 0l2.122 2.122a2 2 0 0 1 0 2.828l-.708.708a2 2 0 0 0 0 2.828l.708.708a2 2 0 0 1 0 2.828l-2.122 2.122a2 2 0 0 1-2.828 0l-.708-.708a2 2 0 0 0-2.828 0l-.708.708a2 2 0 0 1-2.828 0l-2.121-2.122a2 2 0 0 1 0-2.828l.707-.708a2 2 0 0 0 0-2.828l-.707-.708a2 2 0 0 1 0-2.828Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 15.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5Z" />
+                            </svg>
+                        </span>
+                        Settings
+                    </a>
+                </li>
+                
+                <hr class="dropdown-divider">
+                
+                <li>
+                    <a href="#" class="logout-link">
+                        <span class="menu-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6A2.25 2.25 0 0 0 5.25 5.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M18 12H9m0 0 3-3m-3 3 3 3" />
+                            </svg>
+                        </span>
+                        Logout
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    
+</div>
+    </div>
+</nav>
+<div class="menu-overlay" id="menuOverlay"></div>
+
+<section class="hero-section">
+    <div class="hero-container">
+        <div class="hero-content">
+            <span class="badge-text">Evolution of Speed</span>
+            
+            <h1 class="hero-title">
+                Precison<br>
+                <span>Motion</span>
+            </h1>
+            
+            <p class="hero-description">
+                A curated gallery of automotive masterpieces. Where engineering excellence meets unparalleled aesthetic design.
+            </p>
+            
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-dark-blue">Explore Collection</a>
+                <a href="#" class="btn btn-light-blue">Book Appraisal</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="paths-section">
+    <div class="paths-container">
+        
+        <div class="section-header">
+            <h2 class="section-title">Select Your Path</h2>
+            <p class="section-subtitle">Tailored experiences for every enthusiast</p>
+        </div>
+
+        <div class="cards-grid">
+            
+            <div class="path-card">
+                <div class="card-image-wrapper">
+                    <img src="images/buy-car.jpg" alt="Buy Cars" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Buy</h3>
+                    <p class="card-text">Invest in timeless engineering</p>
+                    <span class="card-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+            <div class="path-card">
+                <div class="card-image-wrapper">
+                    <img src="images/rent-car.jpg" alt="Rent Cars" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Rent</h3>
+                    <p class="card-text">The thrill, on your terms</p>
+                    <span class="card-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+            <div class="path-card">
+                <div class="card-image-wrapper">
+                    <img src="images/motorcycle.jpg" alt="Motorcycles" loading="lazy">
+                </div>
+                <div class="card-content">
+                    <h3 class="card-title">Motorcycles</h3>
+                    <p class="card-text">Two wheels, pure adrenaline</p>
+                    <span class="card-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="gallery-section">
+    <div class="gallery-container">
+        
+        <div class="gallery-header">
+            <h2 class="gallery-main-title">Featured Gallery.</h2>
+        </div>
+
+        <div class="gallery-grid">
+            
+            <div class="featured-card-large">
+                <span class="tag-new">NEW ARRIVAL</span>
+                <div class="card-img-container">
+                    <img src="images/car-bg.jpg" alt="Lamborghini Aventador" loading="lazy">
+                </div>
+                <div class="featured-large-content">
+                    <h3 class="item-name">Lamborghini Aventador</h3>
+                    <div class="item-specs">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0 1 12 21 8.25 8.25 0 0 1 6.038 7.047 8.287 8.287 0 0 0 9 9.601a8.983 8.983 0 0 1 3.361-6.867 8.21 8.21 0 0 0 3 2.48Z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.467 5.99 5.99 0 0 0-1.925 3.546 5.974 5.974 0 0 1-2.133-1A3.75 3.75 0 0 0 12 18Z" />
+                            </svg>
+                            330 KM/H
+                        </span>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" />
+                            </svg>
+                            ELECTRIC
+                        </span>
+                        <span class="item-price">$249,000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-right-side">
+                
+                <div class="gallery-card-small">
+                    <div class="small-card-img">
+                        <img src="images/Rider.png" alt="PHANTOM X-Rider" loading="lazy">
+                    </div>
+                    <div class="small-card-content">
+                        <h4 class="small-item-title">PHANTOM X-Rider</h4>
+                        <p class="small-item-desc">Custom built urban performance.</p>
+                        <span class="small-item-price">$32,500</span>
+                    </div>
+                </div>
+
+                <div class="gallery-card-small link-card">
+                    <div class="small-card-content">
+                        <h4 class="small-item-title">VINTAGE PRESTIGE</h4>
+                        <p class="small-item-desc">Certified 1968 restorations.</p>
+                        <a href="#" class="view-collection-link">
+                            VIEW COLLECTION 
+                           <span class="arrow-icon">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+        <path d="M9 6L15 12L9 18" 
+              stroke="currentColor" 
+              stroke-width="2" 
+              stroke-linecap="round" 
+              stroke-linejoin="round"/>
+    </svg>
+</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<footer class="main-footer">
+    <div class="footer-container">
+        
+        <div class="footer-column brand-col">
+            <a href="#" class="footer-logo">TURPO<span>TIC</span></a>
+            <p class="footer-desc">
+                Redefining the automotive experience through curated excellence and technical precision.
+            </p>
+        </div>
+        
+        <div class="footer-column links-col">
+            <h4 class="footer-heading">GALLERY</h4>
+            <ul class="footer-links">
+                <li><a href="#">Sale</a></li>
+                <li><a href="#">Rent</a></li>
+                <li><a href="#">Motorcycles</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column links-col">
+            <h4 class="footer-heading">SUPPORT</h4>
+            <ul class="footer-links">
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of service</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-column copyright-col">
+            <p class="copyright-text">
+                &copy; 2026 TURPOTIC GALLERY. PRECISION MOTION DEFINED.
+            </p>
+        </div>
+        
+    </div>
+</footer>
+
+
+
+
+
+</div>
+
+<div class="cart-overlay" id="cartOverlay"></div>
+
+<div class="cart-drawer" id="cartDrawer">
+    <div class="cart-drawer-header">
+        <h3>Your Garage / Cart</h3>
+        <button class="close-cart-btn" id="closeCart">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </button>
+    </div>
+
+    <div class="cart-drawer-items">
+        <p class="empty-cart-msg" style="text-align:center; padding:20px; color:#888;">
+    Your garage is empty
+</p>
+    </div>
+
+    <div class="cart-drawer-footer">
+        <div class="cart-total">
+            <span>Total Amount:</span>
+            <span class="total-price">$249,000</span>
+        </div>
+        <a href="contact.html">
+        <button class="checkout-btn">PROCEED TO CHECKOUT</button>
+        </a>
+        <button class="view-cart-link">View Full Garage</button>
+    </div>
+</div>
+<button id="scrollToTopBtn" class="scroll-btn">&#8593;</button>
+<script src="js/main.js"></script>
+</body>
+
+</html>
